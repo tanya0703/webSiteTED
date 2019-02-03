@@ -790,6 +790,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   left: -60px;
 }
+
+#speakers .speaker4, .speaker4 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#speakers .speaker4 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 650px;
+  left: -490px;
+}
+ #speakers .speaker4 .los4 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#speakers .speaker4 .los4 #img4 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
 #speakers .speaker1 {
   position: relative;
   overflow: hidden;
@@ -928,6 +953,487 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker3:hover .details {
+  bottom: 0;
+}
+
+#speakers .speaker4 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#speakers .speaker4 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#speakers .speaker4 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#speakers .speaker4 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#speakers .speaker4 .details .social {
+  height: 30px;
+}
+
+#speakers .speaker4 .details a {
+  color: #fff;
+}
+
+#speakers .speaker4 .details a:hover {
+  color: #f82249;
+}
+
+#speakers .speaker4:hover .details {
+  bottom: 0;
+}
+
+#speakers-details {
+  padding: 60px 0;
+}
+
+#speakers-details .details h2 {
+  color: #112363;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#speakers-details .details .social {
+  margin-bottom: 15px;
+}
+
+#speakers-details .details .social a {
+  background: #e9edfb;
+  color: #112363;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding-top: 9px;
+}
+
+#speakers-details .details .social a:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+#speakers-details .details .social a i {
+  font-size: 18px;
+}
+
+#speakers-details .details p {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+/*--------------------------------------------------------------
+# Equipe Section
+--------------------------------------------------------------*/
+
+
+#equipe {
+  padding: 60px 0 30px 0;
+  height: 1300px;
+}
+
+#soon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
+/*#speakers .speaker .square{
+  width: 200px;
+  height: 200px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  overflow: hidden;
+
+}
+
+#speakers .speaker .square .img-fluid{
+  width: 250px;
+ height: 250px;
+ -ms-transform: rotate(-45deg);
+ -webkit-transform: rotate(-45deg);
+ transform: rotate(-45deg);
+}*/
+
+#equipe .eq1, .eq1 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq1{
+  transform: rotate(45deg);
+  position: relative;
+  top: 10px;
+  left: 310px;
+}
+#equipe .eq1 .los1 {
+  width: 300px;
+  height: 300px;
+  transform: rotate(-45deg) translateY(-64px);
+}
+#equipe .eq1 .los1 #img1 {
+  width: 400px;
+  height: 300px;
+}
+
+#equipe .eq2, .eq2 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq2 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 180px;
+  left: 250px;
+}
+ #equipe .eq2 .los2 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq2 .los2 #img2 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+
+#equipe .eq3, .eq3 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq3 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 352px;
+  left: -151px;
+}
+ #equipe .eq3 .los3 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq3 .los3 #img3 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+
+#equipe .eq4, .eq4 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq4 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 530px;
+  left: -210px;
+}
+ #equipe .eq4 .los4 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq4 .los4 #img4 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+#equipe .eq5, .eq5 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq5 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 700px;
+  left: -610px;
+}
+ #equipe .eq5 .los5 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq5 .los5 #img5 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+#equipe .eq1 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#equipe .eq1 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#equipe .eq1 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#equipe .eq1 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#equipe .eq1 .details .social {
+  height: 30px;
+}
+
+#equipe .eq1 .details a {
+  color: #fff;
+}
+
+#equipe .eq1 .details a:hover {
+  color: #f82249;
+}
+
+#equipe .eq1:hover .details {
+  bottom: 0;
+}
+
+#equipe .eq1 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#equipe .eq2 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#equipe .eq2 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#equipe .eq2 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#equipe .eq2 .details .social {
+  height: 30px;
+}
+
+#equipe .eq2 .details a {
+  color: #fff;
+}
+
+#equipe .eq2 .details a:hover {
+  color: #f82249;
+}
+
+#equipe .eq2:hover .details {
+  bottom: 0;
+}
+
+#equipe .eq3 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#equipe .eq3 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#equipe .eq3 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#equipe .eq3 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#equipe .eq3 .details .social {
+  height: 30px;
+}
+
+#equipe .eq3 .details a {
+  color: #fff;
+}
+
+#equipe .eq3 .details a:hover {
+  color: #f82249;
+}
+
+#equipe .eq3 :hover .details {
+  bottom: 0;
+}
+
+#equipe .eq4 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#equipe .eq4 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 10px;
+  bottom: -30px;
+  right: 0;
+  height: 212px;
+  width: 212px;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#equipe .eq4 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#equipe .eq4 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#equipe .eq4 .details .social {
+  height: 30px;
+}
+
+#equipe .eq4 .details a {
+  color: #fff;
+}
+
+#equipe .eq4 .details a:hover {
+  color: #f82249;
+}
+
+#equipe .eq4 :hover .details {
+  bottom: 0;
+}
+
+#equipe .eq5 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#equipe .eq5 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#equipe .eq5 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#equipe .eq5 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#equipe .eq5 .details .social {
+  height: 30px;
+}
+
+#equipe .eq5 .details a {
+  color: #fff;
+}
+
+#equipe .eq5 .details a:hover {
+  color: #f82249;
+}
+
+#equipe .eq5 :hover .details {
   bottom: 0;
 }
 
