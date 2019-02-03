@@ -644,7 +644,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 
-#about {
+#apropos {
   background: url("../img/about-bg.jpg");
   background-size: cover;
   overflow: hidden;
@@ -653,7 +653,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 40px 0;
 }
 
-#about:before {
+#apropos:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
   position: absolute;
@@ -663,14 +663,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
-#about h2 {
+#apropos h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
 }
 
-#about h3 {
+#apropos h3 {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -678,7 +678,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#about p {
+#apropos p {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
@@ -690,9 +690,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers {
   padding: 60px 0 30px 0;
+  height: 1000px;
 }
 
-#speakers .speaker .square{
+#soon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
+/*#speakers .speaker .square{
   width: 200px;
   height: 200px;
   -ms-transform: rotate(45deg);
@@ -708,16 +717,87 @@ body.mobile-nav-active #mobile-nav-toggle {
  -ms-transform: rotate(-45deg);
  -webkit-transform: rotate(-45deg);
  transform: rotate(-45deg);
+}*/
+
+#speakers .speaker1, .speaker1 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#speakers .speaker1{
+  transform: rotate(45deg);
+  position: relative;
+  top: 10px;
+  left: 270px;
+}
+#speakers .speaker1 .los1 {
+  width: 300px;
+  height: 300px;
+  transform: rotate(-45deg) translateY(-64px);
+}
+#speakers .speaker1 .los1 #img1 {
+  width: 400px;
+  height: 300px;
 }
 
-/*#speakers .speaker {
+#speakers .speaker2, .speaker2 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#speakers .speaker2 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 180px;
+  left: 60px;
+}
+ #speakers .speaker2 .los2 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#speakers .speaker2 .los2 #img2 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+
+#speakers .speaker3, .speaker3 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#speakers .speaker3 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 350px;
+  left: -490px;
+}
+ #speakers .speaker3 .los3 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#speakers .speaker3 .los3 #img3 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+#speakers .speaker1 {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#speakers .speaker .details {
-  background: rgba(6, 12, 34, 0.76);
+#speakers .speaker1 .details {
+  background: rgba(20, 12, 34, 0.4);
   position: absolute;
   left: 0;
   bottom: -30px;
@@ -727,33 +807,127 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#speakers .speaker .details h3 {
+#speakers .speaker1 .details h3 {
   color: #fff;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#speakers .speaker .details p {
+#speakers .speaker1 .details p {
   color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
 }
 
-#speakers .speaker .details .social {
+#speakers .speaker1 .details .social {
   height: 30px;
 }
 
-#speakers .speaker .details a {
+#speakers .speaker1 .details a {
   color: #fff;
 }
 
-#speakers .speaker .details a:hover {
+#speakers .speaker1 .details a:hover {
   color: #f82249;
 }
 
-#speakers .speaker:hover .details {
+#speakers .speaker1:hover .details {
+  bottom: 0;
+}
+
+#speakers .speaker1 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#speakers .speaker2 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#speakers .speaker2 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#speakers .speaker2 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#speakers .speaker2 .details .social {
+  height: 30px;
+}
+
+#speakers .speaker2 .details a {
+  color: #fff;
+}
+
+#speakers .speaker2 .details a:hover {
+  color: #f82249;
+}
+
+#speakers .speaker2:hover .details {
+  bottom: 0;
+}
+
+#speakers .speaker3 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#speakers .speaker3 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#speakers .speaker3 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#speakers .speaker3 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#speakers .speaker3 .details .social {
+  height: 30px;
+}
+
+#speakers .speaker3 .details a {
+  color: #fff;
+}
+
+#speakers .speaker3 .details a:hover {
+  color: #f82249;
+}
+
+#speakers .speaker3:hover .details {
   bottom: 0;
 }
 
@@ -797,8 +971,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
-}*/
-
+}
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
