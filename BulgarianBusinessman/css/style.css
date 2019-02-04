@@ -147,8 +147,8 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(0, 0, 0, 0.5);
-  height: 100px;
+  background: rgba(0, 0, 0, 1);
+  height: 70px;
   padding: 15px 0;
   /*transition: all 0.5s;*/
 }
@@ -2087,7 +2087,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top {
   background: #040919;
-  padding: 60px 0 30px 0;
+  padding: 60px 0 10px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -2182,6 +2182,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+  text-align: right;
+  width: 100%;
 }
 
 #footer .footer-top .footer-contact p {
