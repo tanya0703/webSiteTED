@@ -701,25 +701,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 50%;
 }
 
-/*#speakers .speaker .square{
-  width: 200px;
-  height: 200px;
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  overflow: hidden;
-
-}
-
-#speakers .speaker .square .img-fluid{
-  width: 250px;
- height: 250px;
- -ms-transform: rotate(-45deg);
- -webkit-transform: rotate(-45deg);
- transform: rotate(-45deg);
-}*/
-
-#speakers .speaker1, .speaker1 div {
+#speakers .speaker1, .speaker2, .speaker3, .speaker4, .speaker1 div, .speaker2 div, .speaker3 div, .speaker4 div{
   margin: 0 auto;
   overflow: hidden;
   width: 212px;
@@ -731,7 +713,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 10px;
   left: 270px;
 }
-#speakers .speaker1 .los1 {
+#speakers .speaker1 .los1, .speaker2 .los2, .speaker3 .los3, .speaker4 .los4 {
   width: 300px;
   height: 300px;
   transform: rotate(-45deg) translateY(-64px);
@@ -741,23 +723,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 300px;
 }
 
-#speakers .speaker2, .speaker2 div {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 212px;
-  height: 212px;
-}
+
 #speakers .speaker2 {
   transform: rotate(45deg);
   position: relative;
   top: 180px;
   left: 60px;
-}
- #speakers .speaker2 .los2 {
-   width: 300px;
-   height: 300px;
-   transform: rotate(-45deg) translateY(-64px);
-
 }
 #speakers .speaker2 .los2 #img2 {
   width: 400px;
@@ -766,23 +737,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: -60px;
 }
 
-#speakers .speaker3, .speaker3 div {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 212px;
-  height: 212px;
-}
 #speakers .speaker3 {
   transform: rotate(45deg);
   position: relative;
   top: 350px;
   left: -490px;
-}
- #speakers .speaker3 .los3 {
-   width: 300px;
-   height: 300px;
-   transform: rotate(-45deg) translateY(-64px);
-
 }
 #speakers .speaker3 .los3 #img3 {
   width: 400px;
@@ -791,23 +750,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: -60px;
 }
 
-#speakers .speaker4, .speaker4 div {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 212px;
-  height: 212px;
-}
+
+
 #speakers .speaker4 {
   transform: rotate(45deg);
   position: relative;
   top: 650px;
   left: -490px;
-}
- #speakers .speaker4 .los4 {
-   width: 300px;
-   height: 300px;
-   transform: rotate(-45deg) translateY(-64px);
-
 }
 #speakers .speaker4 .los4 #img4 {
   width: 400px;
@@ -1051,7 +1000,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #equipe {
   padding: 60px 0 30px 0;
-  height: 2000px;
+  height: 2500px;
 }
 
 #soon{
@@ -1476,7 +1425,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: rotate(45deg);
   position: relative;
   top: 630px;
-  left: 450px;
+  left: 470px;
 }
  #equipe .eq6 .los6 {
    width: 300px;
@@ -1553,7 +1502,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: rotate(45deg);
   position: relative;
   top: 800px;
-  left: -10px;
+  left: 70px;
 }
  #equipe .eq7 .los7 {
    width: 300px;
@@ -1631,7 +1580,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: rotate(45deg);
   position: relative;
   top: 976px;
-  left: -120px;
+  left: 10px;
 }
  #equipe .eq8 .los8 {
    width: 300px;
@@ -1709,7 +1658,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: rotate(45deg);
   position: relative;
   top: 1150px;
-  left: -583px;
+  left: -393px;
 }
  #equipe .eq9 .los9 {
    width: 300px;
@@ -1773,6 +1722,160 @@ body.mobile-nav-active #mobile-nav-toggle {
   bottom: 0;
 }
 
+/*--------------------------------------------------------------
+# Membre d'equipe 9 - Tanya
+--------------------------------------------------------------*/
+
+#equipe .eq10, .eq10 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq10 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 1325px;
+  left: -443px;
+}
+ #equipe .eq10 .los10 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq10 .los10 #img10 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+
+#equipe .eq10 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#equipe .eq10 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 10px;
+  bottom: -30px;
+  right: 0;
+  height: 212px;
+  width: 212px;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#equipe .eq10 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#equipe .eq10 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#equipe .eq10 .details .social {
+  height: 30px;
+}
+
+#equipe .eq10 .details a {
+  color: #fff;
+}
+
+#equipe .eq10 .details a:hover {
+  color: #f82249;
+}
+
+#equipe .eq10 :hover .details {
+  bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Membre d'equipe 11 - Darya
+--------------------------------------------------------------*/
+#equipe .eq11, .eq11 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq11 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 1255px;
+  left: -165px;
+}
+ #equipe .eq11 .los11 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq11 .los11 #img11 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+
+#equipe .eq11 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#equipe .eq11 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#equipe .eq11 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#equipe .eq11 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#equipe .eq11 .details .social {
+  height: 30px;
+}
+
+#equipe .eq11 .details a {
+  color: #fff;
+}
+
+#equipe .eq11 .details a:hover {
+  color: #f82249;
+}
+
+#equipe .eq11 :hover .details {
+  bottom: 0;
+}
+
+
 #speakers-details {
   padding: 60px 0;
 }
@@ -1814,6 +1917,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
+
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
