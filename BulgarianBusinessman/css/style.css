@@ -1051,7 +1051,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #equipe {
   padding: 60px 0 30px 0;
-  height: 1300px;
+  height: 2000px;
 }
 
 #soon{
@@ -1080,6 +1080,10 @@ body.mobile-nav-active #mobile-nav-toggle {
  transform: rotate(-45deg);
 }*/
 
+/*--------------------------------------------------------------
+# Membre d'equipe 1 - Tihomir
+--------------------------------------------------------------*/
+
 #equipe .eq1, .eq1 div {
   margin: 0 auto;
   overflow: hidden;
@@ -1102,104 +1106,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 300px;
 }
 
-#equipe .eq2, .eq2 div {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 212px;
-  height: 212px;
-}
-#equipe .eq2 {
-  transform: rotate(45deg);
-  position: relative;
-  top: 180px;
-  left: 250px;
-}
- #equipe .eq2 .los2 {
-   width: 300px;
-   height: 300px;
-   transform: rotate(-45deg) translateY(-64px);
-
-}
-#equipe .eq2 .los2 #img2 {
-  width: 400px;
-  height: 300px;
-  position: relative;
-  left: -60px;
-}
-
-#equipe .eq3, .eq3 div {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 212px;
-  height: 212px;
-}
-#equipe .eq3 {
-  transform: rotate(45deg);
-  position: relative;
-  top: 352px;
-  left: -151px;
-}
- #equipe .eq3 .los3 {
-   width: 300px;
-   height: 300px;
-   transform: rotate(-45deg) translateY(-64px);
-
-}
-#equipe .eq3 .los3 #img3 {
-  width: 400px;
-  height: 300px;
-  position: relative;
-  left: -60px;
-}
-
-#equipe .eq4, .eq4 div {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 212px;
-  height: 212px;
-}
-#equipe .eq4 {
-  transform: rotate(45deg);
-  position: relative;
-  top: 530px;
-  left: -210px;
-}
- #equipe .eq4 .los4 {
-   width: 300px;
-   height: 300px;
-   transform: rotate(-45deg) translateY(-64px);
-
-}
-#equipe .eq4 .los4 #img4 {
-  width: 400px;
-  height: 300px;
-  position: relative;
-  left: -60px;
-}
-#equipe .eq5, .eq5 div {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 212px;
-  height: 212px;
-}
-#equipe .eq5 {
-  transform: rotate(45deg);
-  position: relative;
-  top: 700px;
-  left: -610px;
-}
- #equipe .eq5 .los5 {
-   width: 300px;
-   height: 300px;
-   transform: rotate(-45deg) translateY(-64px);
-
-}
-#equipe .eq5 .los5 #img5 {
-  width: 400px;
-  height: 300px;
-  position: relative;
-  left: -60px;
-}
 #equipe .eq1 {
   position: relative;
   overflow: hidden;
@@ -1247,7 +1153,37 @@ body.mobile-nav-active #mobile-nav-toggle {
   bottom: 0;
 }
 
-#equipe .eq1 {
+
+/*--------------------------------------------------------------
+# Membre d'equipe 2 - Rym
+--------------------------------------------------------------*/
+
+#equipe .eq2, .eq2 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq2 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 180px;
+  left: 250px;
+}
+ #equipe .eq2 .los2 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq2 .los2 #img2 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+
+#equipe .eq2 {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
@@ -1292,6 +1228,36 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #equipe .eq2:hover .details {
   bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Membre d'equipe 3 - Antoine
+--------------------------------------------------------------*/
+
+
+#equipe .eq3, .eq3 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq3 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 352px;
+  left: -151px;
+}
+ #equipe .eq3 .los3 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq3 .los3 #img3 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
 }
 
 #equipe .eq3 {
@@ -1339,6 +1305,35 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #equipe .eq3 :hover .details {
   bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Membre d'equipe 4 - Tiphaine
+--------------------------------------------------------------*/
+#equipe .eq4, .eq4 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq4 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 530px;
+  left: -210px;
+}
+ #equipe .eq4 .los4 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq4 .los4 #img4 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
 }
 
 #equipe .eq4 {
@@ -1390,6 +1385,34 @@ body.mobile-nav-active #mobile-nav-toggle {
   bottom: 0;
 }
 
+/*--------------------------------------------------------------
+# Membre d'equipe 5 - David
+--------------------------------------------------------------*/
+#equipe .eq5, .eq5 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq5 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 700px;
+  left: -610px;
+}
+ #equipe .eq5 .los5 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq5 .los5 #img5 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+
 #equipe .eq5 {
   position: relative;
   overflow: hidden;
@@ -1434,6 +1457,319 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #equipe .eq5 :hover .details {
+  bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Membre d'equipe 6 - Hugo
+--------------------------------------------------------------*/
+
+#equipe .eq6, .eq6 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+
+#equipe .eq6 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 630px;
+  left: 450px;
+}
+ #equipe .eq6 .los6 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq6 .los6 #img6 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+#equipe .eq6 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#equipe .eq6 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 10px;
+  bottom: -30px;
+  right: 0;
+  height: 212px;
+  width: 212px;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#equipe .eq6 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#equipe .eq6 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#equipe .eq6 .details .social {
+  height: 30px;
+}
+
+#equipe .eq6 .details a {
+  color: #fff;
+}
+
+#equipe .eq6 .details a:hover {
+  color: #f82249;
+}
+
+#equipe .eq6 :hover .details {
+  bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Membre d'equipe 7 - Valentine
+--------------------------------------------------------------*/
+
+#equipe .eq7, .eq7 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq7 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 800px;
+  left: -10px;
+}
+ #equipe .eq7 .los7 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq7 .los7 #img7 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+
+#equipe .eq7 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#equipe .eq7 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 10px;
+  bottom: -30px;
+  right: 0;
+  height: 212px;
+  width: 212px;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#equipe .eq7 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#equipe .eq7 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#equipe .eq7 .details .social {
+  height: 30px;
+}
+
+#equipe .eq7 .details a {
+  color: #fff;
+}
+
+#equipe .eq7 .details a:hover {
+  color: #f82249;
+}
+
+#equipe .eq7 :hover .details {
+  bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Membre d'equipe 8 - Arnaud
+--------------------------------------------------------------*/
+
+#equipe .eq8, .eq8 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq8 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 976px;
+  left: -120px;
+}
+ #equipe .eq8 .los8 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq8 .los8 #img8 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+
+#equipe .eq8 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#equipe .eq8 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 10px;
+  bottom: -30px;
+  right: 0;
+  height: 212px;
+  width: 212px;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#equipe .eq8 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#equipe .eq8 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#equipe .eq8 .details .social {
+  height: 30px;
+}
+
+#equipe .eq8 .details a {
+  color: #fff;
+}
+
+#equipe .eq8 .details a:hover {
+  color: #f82249;
+}
+
+#equipe .eq8 :hover .details {
+  bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Membre d'equipe 9 - Clemence
+--------------------------------------------------------------*/
+
+#equipe .eq9, .eq9 div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 212px;
+  height: 212px;
+}
+#equipe .eq9 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 1150px;
+  left: -583px;
+}
+ #equipe .eq9 .los9 {
+   width: 300px;
+   height: 300px;
+   transform: rotate(-45deg) translateY(-64px);
+
+}
+#equipe .eq9 .los9 #img9 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: -60px;
+}
+
+#equipe .eq9 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#equipe .eq9 .details {
+  background: rgba(20, 12, 34, 0.4);
+  position: absolute;
+  left: 10px;
+  bottom: -30px;
+  right: 0;
+  height: 212px;
+  width: 212px;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#equipe .eq9 .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#equipe .eq9 .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#equipe .eq9 .details .social {
+  height: 30px;
+}
+
+#equipe .eq9 .details a {
+  color: #fff;
+}
+
+#equipe .eq9 .details a:hover {
+  color: #f82249;
+}
+
+#equipe .eq9 :hover .details {
   bottom: 0;
 }
 
